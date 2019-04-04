@@ -1,1 +1,3 @@
-var button = document.createElement("BUTTON");
+function main(){
+  var button = document.createElement("BUTTON");
+}

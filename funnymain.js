@@ -3,9 +3,15 @@ function newGame(){
   this.attack = 5;
   this.defense = 5;
   this.money = 0;
-    document.write(this.hp"\n", this.attack"\n", this.defense"\n", this.money"\n";
+  document.write(this.hp);
+  document.write("\n");
+  document.write(this.attack);
+  document.write("\n);
+  document.write(this.defense);
+  document.write("\n");
+  document.write(this.money);
 }
 
 function main(){
-  document.write("Let's Start the Game!");
+  newGame();
 }

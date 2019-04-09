@@ -3,10 +3,9 @@ function SetStat(){
   this.attack = 5;
   this.defense = 5;
   this.money = 0;
-    document.write(this.hp, this.attack, this.defense, this.money);
+    document.write(this.hp"\n", this.attack"\n", this.defense"\n", this.money"\n";
 }
 
 function main(){
   document.write("Let's Start the Game!");
-  <button onclick="SetStat()">Your Status</button>;
 }

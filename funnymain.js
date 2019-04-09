@@ -1,4 +1,4 @@
-function playerStat(){
+function SetStat(){
   this.hp = 20;
   this.attack = 5;
   this.defense = 5;

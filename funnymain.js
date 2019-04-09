@@ -6,7 +6,7 @@ function newGame(){
   document.write(this.hp);
   document.write("\n");
   document.write(this.attack);
-  document.write("\n);
+  document.write("\n");
   document.write(this.defense);
   document.write("\n");
   document.write(this.money);

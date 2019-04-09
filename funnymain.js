@@ -8,5 +8,5 @@ function SetStat(){
 
 function main(){
   document.write("Let's Start the Game!");
-
+  <button onclick="SetStat()">Your Status</button>;
 }

@@ -1,4 +1,4 @@
-function main(){
-  var button = document.createElement("button");
-  button.innerHTML = "Do Something";
+function SetStatus(){
+  var x = 28;
+  console.log(x);
 }

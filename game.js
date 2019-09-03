@@ -1,6 +1,2 @@
-function hit(){
-  //if monster gets hited, monsters hp-1
-  //if player gets hited, player hp-1
-  
-  
-}
+var newgame_button = document.createElement("button");
+button.innerHTML = "New Game";

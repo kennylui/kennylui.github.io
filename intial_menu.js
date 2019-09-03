@@ -11,6 +11,8 @@ function newGame(){
   document.write("<br>");
   document.write("Money: "+this.money);
   document.write("<br>");
+  var button = document.createElement("button");
+  button.innerHTML = "You Have Created New Game!";
 }
 
 function main(){

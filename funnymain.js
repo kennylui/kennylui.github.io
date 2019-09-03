@@ -3,13 +3,13 @@ function newGame(){
   this.attack = 5;
   this.defense = 5;
   this.money = 0;
-  document.write(this.hp);
+  document.write(Health: this.hp);
   document.write("\n");
-  document.write(this.attack);
+  document.write(Attack: this.attack);
   document.write("\n");
-  document.write(this.defense);
+  document.write(Defense: this.defense);
   document.write("\n");
-  document.write(this.money);
+  document.write(Money: this.money);
 }
 
 function main(){

@@ -1,5 +1,5 @@
 function newGame(){
-  this.hp = 20;
+  this.hp = 2;
   this.attack = 5;
   this.defense = 5;
   this.money = 0;

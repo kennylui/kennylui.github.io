@@ -67,6 +67,10 @@ function initialDisplay() {
     drawNumber();
 }
 
+function clearDisplay() {
+    ctx.clearRect(0,0,900,600); 
+}
+
 function main() {
     initialDisplay();
 }

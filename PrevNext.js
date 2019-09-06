@@ -5,6 +5,6 @@ function prev(){
 
 function next(){
   clearDisplay();
-  currentMonth = currentMonth++;
-  Display();
+  current.monthposition++;
+  Display(current.monthposition, current.year);
 }

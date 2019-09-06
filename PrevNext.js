@@ -8,8 +8,9 @@ function next(){
   if(0<current.position<11){
     current.monthposition++;
   }
-  else if(current.position == 11)(){
+  else if(current.position == 11){
     current.monthposition = 0;
   }
+  else{}
   Display(current.monthposition, current.year);
 }

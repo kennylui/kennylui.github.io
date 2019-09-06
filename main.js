@@ -58,11 +58,15 @@ function drawNumber() {
     }
 }
 
-function main() {
+function initialDisplay() {
     drawGrid();
     drawWeek();
     drawCircle();
     drawYear(year);
     drawMonth(month);
     drawNumber();
+}
+
+function main() {
+    initialDisplay();
 }

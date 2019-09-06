@@ -5,11 +5,10 @@ var monthArray = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep",
 ctx.font = "30px Times New Romen";
 var startday = weekArray[2];
 var monthday = 31;
-var year = 2019;
 var current = new Object();
 current.monthposition = 0;
-current.yearposition = 2019;
-var month = monthArray[current.monthposition];
+current.year = 2019;
+var currentmonth = monthArray[current.monthposition];
 
 function drawGrid() {
     ctx.fillRect(0, 0, 700, 600);
@@ -61,12 +60,12 @@ function drawNumber() {
     }
 }
 
-function initialDisplay() {
+function Display(currentmonth, currentyear) {
     drawGrid();
     drawWeek();
     drawCircle();
-    drawYear(year);
-    drawMonth(month);
+    drawYear(currentyear);
+    drawMonth(currentmonth);
     drawNumber();
 }
 
@@ -75,5 +74,5 @@ function clearDisplay() {
 }
 
 function main() {
-    initialDisplay();
+    Display(currentmonth, current.year);
 }

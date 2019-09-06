@@ -1,11 +1,10 @@
 function prev(){
   clearDisplay();
-  currentMonth = currentMonth--;
-  initialDisplay();
+  Display();
 }
 
 function next(){
   clearDisplay();
   currentMonth = currentMonth++;
-  initialDisplay();
+  Display();
 }

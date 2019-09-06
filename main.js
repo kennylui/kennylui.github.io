@@ -59,12 +59,12 @@ function drawNumber() {
     }
 }
 
-function Display(currentmonth, currentyear) {
+function Display(current.monthposition, currentyear) {
     drawGrid();
     drawWeek();
     drawCircle();
     drawYear(currentyear);
-    drawMonth(currentmonth);
+    drawMonth(current.monthposition);
     drawNumber();
 }
 

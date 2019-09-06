@@ -6,8 +6,10 @@ ctx.font = "30px Times New Romen";
 var startday = weekArray[2];
 var monthday = 31;
 var year = 2019;
-var currentMonth = 0;
-var month = monthArray[currentMonth];
+var current = new Object();
+current.monthposition = 0;
+current.yearposition = 2019;
+var month = monthArray[current.monthposition];
 
 function drawGrid() {
     ctx.fillRect(0, 0, 700, 600);

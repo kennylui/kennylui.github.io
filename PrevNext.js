@@ -1,6 +1,6 @@
 function previous(){
   clearDisplay();
-  if(0<current.position<11){
+  if(0<current.position<=11){
     current.monthposition--;
   }
   else if(current.position == 0){
@@ -11,7 +11,7 @@ function previous(){
 
 function next(){
   clearDisplay();
-  if(0<current.position<11){
+  if(0<=current.position<11){
     current.monthposition++;
   }
   else if(current.position == 11){

@@ -1,4 +1,4 @@
-function prev(){
+function previous(){
   clearDisplay();
   Display();
 }

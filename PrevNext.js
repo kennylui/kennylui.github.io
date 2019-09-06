@@ -1,5 +1,11 @@
 function previous(){
   clearDisplay();
+  if(0<current.position<11){
+    current.monthposition--;
+  }
+  else if(current.position == 0){
+    current.monthposition = 11;
+  }
   Display();
 }
 

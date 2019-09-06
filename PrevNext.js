@@ -1,4 +1,4 @@
-/*function previous(){
+function previous(){
   clearDisplay();
   if(0<current.position<=11){
     current.monthposition--;
@@ -20,4 +20,4 @@ function next(){
   else{}
   Display(current.monthposition, current.year);
 }
-*/
+

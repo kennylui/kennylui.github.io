@@ -8,7 +8,6 @@ var monthday = 31;
 var current = new Object();
 current.monthposition = 0;
 current.year = 2019;
-var currentmonth = monthArray[current.monthposition];
 
 function drawGrid() {
     ctx.fillRect(0, 0, 700, 600);
@@ -39,9 +38,9 @@ function drawYear(year) {
     ctx.fillText(year, 750, 115);
 }
 
-function drawMonth(month) {
+function drawMonth(current.monthposition) {
     ctx.font = "50px Times New Romen";
-    ctx.fillText(month, 770, 315);
+    ctx.fillText(monthArray[current.monthposition], 770, 315);
 }
 
 function calcStartday() {
@@ -74,5 +73,5 @@ function clearDisplay() {
 }
 
 function main() {
-    Display(currentmonth, current.year);
+    Display(current.monthposition, current.year);
 }

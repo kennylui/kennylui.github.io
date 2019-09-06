@@ -6,6 +6,7 @@ function previous(){
   else if(current.position == 0){
     current.monthposition = 11;
   }
+  else{}
   Display();
 }
 
